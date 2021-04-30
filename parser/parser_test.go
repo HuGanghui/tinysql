@@ -298,6 +298,7 @@ func (s *testParserSuite) RunErrMsgTest(c *C, table []testErrMsgCase) {
 }
 
 func (s *testParserSuite) TestDMLStmt(c *C) {
+	fmt.Print("aaaaa")
 	table := []testCase{
 		{"", true, ""},
 		{";", true, ""},
